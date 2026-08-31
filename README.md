@@ -1,4 +1,4 @@
-Step-by-Step Execution & Proof of Work
+# Level 1: Basics of Linux
 
 - i created a directory named `linux_test` and navigated into it.
 - i created three empty files: `one.txt`, `two.txt`, and `three.txt`.
