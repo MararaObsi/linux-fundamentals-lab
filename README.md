@@ -12,3 +12,15 @@ Step-by-Step Execution & Proof of Work
 
 and then lastly i create a folder named image inside linux_test and then i take screenshot and save screenshot inside my picture folder and move it's content or 
 screenshot.png to the directory i created or image .....
+
+# Level 2: Linux Permissions
+
+# 9. Create and Set Permissions
+- Created `secret.txt`.
+- Applied `chmod 640` to set restrictive permissions.
+
+*Commands Executed:
+```bash
+touch secret.txt
+chmod 640 secret.txt
+ls -l secret.txt
