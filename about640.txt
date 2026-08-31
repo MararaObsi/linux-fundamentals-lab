@@ -1,0 +1,14 @@
+Understanding Permissions
+ *  Linux permissions are represented by a 3-digit octal number
+ (e.g., 640). Each digit represents the permission for the Owner, Group, and Others respectively.
+
+Calculation
+4 = Read (r)
+2 = Write (w)
+1 = Execute (x)
+
+6 (Owner): 4 (read) + 2 (write) = Read & Write
+4 (Group): 4 (read) + 0 = Read only
+0 (Others): 0 + 0 + 0 = No permissions
+
+Result: rw-r-----
